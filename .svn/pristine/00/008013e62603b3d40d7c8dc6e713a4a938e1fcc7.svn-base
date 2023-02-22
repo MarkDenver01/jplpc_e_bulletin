@@ -1,0 +1,211 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmPhoneBook
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmPhoneBook))
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.txtSearch = New System.Windows.Forms.TextBox()
+        Me.lvPhoneBook = New System.Windows.Forms.ListView()
+        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.btnSelect = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.rboAll = New System.Windows.Forms.RadioButton()
+        Me.rboFaculty = New System.Windows.Forms.RadioButton()
+        Me.rboStudent = New System.Windows.Forms.RadioButton()
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox1.Controls.Add(Me.txtSearch)
+        Me.GroupBox1.ForeColor = System.Drawing.Color.White
+        Me.GroupBox1.Location = New System.Drawing.Point(263, 4)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Size = New System.Drawing.Size(392, 56)
+        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Search for Faculty name or Mobile No."
+        '
+        'txtSearch
+        '
+        Me.txtSearch.Font = New System.Drawing.Font("Segoe UI Semibold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSearch.Location = New System.Drawing.Point(7, 22)
+        Me.txtSearch.Name = "txtSearch"
+        Me.txtSearch.Size = New System.Drawing.Size(378, 27)
+        Me.txtSearch.TabIndex = 0
+        '
+        'lvPhoneBook
+        '
+        Me.lvPhoneBook.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4})
+        Me.lvPhoneBook.FullRowSelect = True
+        Me.lvPhoneBook.GridLines = True
+        Me.lvPhoneBook.Location = New System.Drawing.Point(8, 67)
+        Me.lvPhoneBook.Name = "lvPhoneBook"
+        Me.lvPhoneBook.Size = New System.Drawing.Size(807, 231)
+        Me.lvPhoneBook.TabIndex = 1
+        Me.lvPhoneBook.UseCompatibleStateImageBehavior = False
+        Me.lvPhoneBook.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "NAME"
+        Me.ColumnHeader1.Width = 197
+        '
+        'ColumnHeader2
+        '
+        Me.ColumnHeader2.Text = "MOBILE NUMBER"
+        Me.ColumnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ColumnHeader2.Width = 233
+        '
+        'ColumnHeader3
+        '
+        Me.ColumnHeader3.Text = "SECTION"
+        Me.ColumnHeader3.Width = 189
+        '
+        'ColumnHeader4
+        '
+        Me.ColumnHeader4.Text = "GROUP BY"
+        Me.ColumnHeader4.Width = 181
+        '
+        'btnSelect
+        '
+        Me.btnSelect.BackColor = System.Drawing.Color.Firebrick
+        Me.btnSelect.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkRed
+        Me.btnSelect.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSelect.Image = CType(resources.GetObject("btnSelect.Image"), System.Drawing.Image)
+        Me.btnSelect.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnSelect.Location = New System.Drawing.Point(614, 304)
+        Me.btnSelect.Name = "btnSelect"
+        Me.btnSelect.Size = New System.Drawing.Size(201, 46)
+        Me.btnSelect.TabIndex = 2
+        Me.btnSelect.Text = "Select"
+        Me.btnSelect.UseVisualStyleBackColor = False
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Segoe UI Semibold", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(853, 331)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(68, 27)
+        Me.TextBox1.TabIndex = 1
+        Me.TextBox1.Visible = False
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox2.Controls.Add(Me.rboAll)
+        Me.GroupBox2.Controls.Add(Me.rboFaculty)
+        Me.GroupBox2.Controls.Add(Me.rboStudent)
+        Me.GroupBox2.ForeColor = System.Drawing.Color.White
+        Me.GroupBox2.Location = New System.Drawing.Point(8, 4)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox2.Size = New System.Drawing.Size(247, 56)
+        Me.GroupBox2.TabIndex = 1
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Select Group"
+        '
+        'rboAll
+        '
+        Me.rboAll.AutoSize = True
+        Me.rboAll.Location = New System.Drawing.Point(100, 25)
+        Me.rboAll.Name = "rboAll"
+        Me.rboAll.Size = New System.Drawing.Size(41, 21)
+        Me.rboAll.TabIndex = 2
+        Me.rboAll.TabStop = True
+        Me.rboAll.Text = "All"
+        Me.rboAll.UseVisualStyleBackColor = True
+        '
+        'rboFaculty
+        '
+        Me.rboFaculty.AutoSize = True
+        Me.rboFaculty.Location = New System.Drawing.Point(155, 25)
+        Me.rboFaculty.Name = "rboFaculty"
+        Me.rboFaculty.Size = New System.Drawing.Size(69, 21)
+        Me.rboFaculty.TabIndex = 1
+        Me.rboFaculty.TabStop = True
+        Me.rboFaculty.Text = "Faculty"
+        Me.rboFaculty.UseVisualStyleBackColor = True
+        '
+        'rboStudent
+        '
+        Me.rboStudent.AutoSize = True
+        Me.rboStudent.Location = New System.Drawing.Point(18, 25)
+        Me.rboStudent.Name = "rboStudent"
+        Me.rboStudent.Size = New System.Drawing.Size(74, 21)
+        Me.rboStudent.TabIndex = 0
+        Me.rboStudent.TabStop = True
+        Me.rboStudent.Text = "Student"
+        Me.rboStudent.UseVisualStyleBackColor = True
+        '
+        'frmPhoneBook
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 17.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(822, 358)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.btnSelect)
+        Me.Controls.Add(Me.lvPhoneBook)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.DoubleBuffered = True
+        Me.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ForeColor = System.Drawing.Color.White
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.Name = "frmPhoneBook"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Phone Book"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents txtSearch As System.Windows.Forms.TextBox
+    Friend WithEvents lvPhoneBook As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader1 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader2 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents btnSelect As System.Windows.Forms.Button
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents ColumnHeader3 As ColumnHeader
+    Friend WithEvents ColumnHeader4 As ColumnHeader
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents rboFaculty As RadioButton
+    Friend WithEvents rboStudent As RadioButton
+    Friend WithEvents rboAll As RadioButton
+End Class

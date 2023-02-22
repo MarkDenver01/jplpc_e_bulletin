@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+JPLPCMalvarEBulletinBoardSystem
+</name>
+</assembly>
+<members>
+<member name="F:JPLPCMalvarEBulletinBoardSystem.FilterMessages.list">
+	<summary>
+ Implementation of filtering badwords using arrayString
+ *********Denver : 10-23-2017*********
+ If there is a bug found please contact the developer @ mgregorio.kinpo.com.ph
+ or submit a report message on www.markdenvergregorio.pe.hu
+ Developer : Denver
+ Distribution of this code is probihited, please ask the developer and the client first to distribute this code
+ </summary>
+</member><member name="T:JPLPCMalvarEBulletinBoardSystem.frmSMSNotification">
+	<summary>
+ Note: Distribution of this code is probihited. Please ask the developer or the client first.
+ ---10-28-2017---
+ If you found a bug please contact the developer immediately @ mgregorio.kinpo.com.ph
+ or visit in our website http://markdenvergregorio.pe.hu
+ </summary>
+</member><member name="F:JPLPCMalvarEBulletinBoardSystem.frmAllSMS.csstring">
+	<summary>
+ Implementation of recieving/sending SMS via Database.
+ *********DENVER:09-20-2017**********
+ If there is a bug found please contact the developer @ mgregorio.kinpo.com.ph
+ or submit a report message on www.markdenvergregorio.pe.hu
+ Developer : Denver
+ Distribution of this code is probihited, please ask the developer and the client first to distribute this code
+ </summary>
+</member><member name="T:JPLPCMalvarEBulletinBoardSystem.frmMain">
+	<summary>
+ Electronic bulletin board with SMS Notification
+ Distribution this code/system is probihited.
+ Please ask the client or the developer first.
+ For more info, you can contact the developer
+ Developer : Denver (gregoriomarkdenver01@gmail.com) or m.gregorio@kinpo.com.ph
+ Website : www.markdenvergregorio.pe.hu
+ </summary>
+</member><member name="P:JPLPCMalvarEBulletinBoardSystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:JPLPCMalvarEBulletinBoardSystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:JPLPCMalvarEBulletinBoardSystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

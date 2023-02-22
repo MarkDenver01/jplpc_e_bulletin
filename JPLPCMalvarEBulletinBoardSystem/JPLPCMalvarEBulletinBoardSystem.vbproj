@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9515AAEF-ED15-4E58-9E8A-64299FB98DB2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>JPLPCMalvarEBulletinBoardSystem.My.MyApplication</StartupObject>
+    <RootNamespace>JPLPCMalvarEBulletinBoardSystem</RootNamespace>
+    <AssemblyName>JPLPCMalvarEBulletinBoardSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>JPLPCMalvarEBulletinBoardSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>JPLPCMalvarEBulletinBoardSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.6\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="connection.vb" />
+    <Compile Include="FilterMessages.vb" />
+    <Compile Include="frmAnnouncementCenter.Designer.vb">
+      <DependentUpon>frmAnnouncementCenter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnnouncementCenter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddPhonebook.Designer.vb">
+      <DependentUpon>frmAddPhonebook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPhonebook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddPhoto.Designer.vb">
+      <DependentUpon>frmAddPhoto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPhoto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAllSMS.Designer.vb">
+      <DependentUpon>frmAllSMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAllSMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnnouncement.Designer.vb">
+      <DependentUpon>frmAnnouncement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnnouncement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnnouncementDragnDrop.Designer.vb">
+      <DependentUpon>frmAnnouncementDragnDrop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnnouncementDragnDrop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnnouncement_Pic.Designer.vb">
+      <DependentUpon>frmAnnouncement_Pic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnnouncement_Pic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnnouncement_View.Designer.vb">
+      <DependentUpon>frmAnnouncement_View.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnnouncement_View.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnnounementResetter.Designer.vb">
+      <DependentUpon>frmAnnounementResetter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnnounementResetter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguration.Designer.vb">
+      <DependentUpon>frmConfiguration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfiguration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDragNDropObject.Designer.vb">
+      <DependentUpon>frmDragNDropObject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDragNDropObject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEventMessage.Designer.vb">
+      <DependentUpon>frmEventMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEventMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistory.Designer.vb">
+      <DependentUpon>frmHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListBirthday.Designer.vb">
+      <DependentUpon>frmListBirthday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListBirthday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListPhoto.Designer.vb">
+      <DependentUpon>frmListPhoto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListPhoto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewAnnouncement.Designer.vb">
+      <DependentUpon>frmNewAnnouncement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewAnnouncement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotification.Designer.vb">
+      <DependentUpon>frmNotification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhotoPost.Designer.vb">
+      <DependentUpon>frmPhotoPost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhotoPost.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhotoPostEdit.Designer.vb">
+      <DependentUpon>frmPhotoPostEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhotoPostEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPostAnnouncement2.Designer.vb">
+      <DependentUpon>frmPostAnnouncement2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPostAnnouncement2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPostAnnouncement3.Designer.vb">
+      <DependentUpon>frmPostAnnouncement3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPostAnnouncement3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPostAnnouncementEdit2.Designer.vb">
+      <DependentUpon>frmPostAnnouncementEdit2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPostAnnouncementEdit2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPostAnnouncementEdit3.Designer.vb">
+      <DependentUpon>frmPostAnnouncementEdit3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPostAnnouncementEdit3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPreview.Designer.vb">
+      <DependentUpon>frmPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRoom.Designer.vb">
+      <DependentUpon>frmRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRunningMessage.Designer.vb">
+      <DependentUpon>frmRunningMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRunningMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSAPI.Designer.vb">
+      <DependentUpon>frmSAPI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSAPI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedBeta.Designer.vb">
+      <DependentUpon>frmSchedBeta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedBeta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedule.Designer.vb">
+      <DependentUpon>frmSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSection.Designer.vb">
+      <DependentUpon>frmSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSNotification.Designer.vb">
+      <DependentUpon>frmSMSNotification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSNotification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSubjects.Designer.vb">
+      <DependentUpon>frmSubjects.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSubjects.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmView.Designer.vb">
+      <DependentUpon>frmView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmPhoneBook.Designer.vb">
+      <DependentUpon>frmPhoneBook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhoneBook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Obj_resize.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAddPhonebook.resx">
+      <DependentUpon>frmAddPhonebook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddPhoto.resx">
+      <DependentUpon>frmAddPhoto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAllSMS.resx">
+      <DependentUpon>frmAllSMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnnouncement.resx">
+      <DependentUpon>frmAnnouncement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnnouncementCenter.resx">
+      <DependentUpon>frmAnnouncementCenter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnnouncementDragnDrop.resx">
+      <DependentUpon>frmAnnouncementDragnDrop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnnouncement_Pic.resx">
+      <DependentUpon>frmAnnouncement_Pic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnnouncement_View.resx">
+      <DependentUpon>frmAnnouncement_View.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnnounementResetter.resx">
+      <DependentUpon>frmAnnounementResetter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguration.resx">
+      <DependentUpon>frmConfiguration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDragNDropObject.resx">
+      <DependentUpon>frmDragNDropObject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEventMessage.resx">
+      <DependentUpon>frmEventMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistory.resx">
+      <DependentUpon>frmHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListBirthday.resx">
+      <DependentUpon>frmListBirthday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListPhoto.resx">
+      <DependentUpon>frmListPhoto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewAnnouncement.resx">
+      <DependentUpon>frmNewAnnouncement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotification.resx">
+      <DependentUpon>frmNotification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhotoPost.resx">
+      <DependentUpon>frmPhotoPost.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhotoPostEdit.resx">
+      <DependentUpon>frmPhotoPostEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPostAnnouncement2.resx">
+      <DependentUpon>frmPostAnnouncement2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPostAnnouncement3.resx">
+      <DependentUpon>frmPostAnnouncement3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPostAnnouncementEdit2.resx">
+      <DependentUpon>frmPostAnnouncementEdit2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPostAnnouncementEdit3.resx">
+      <DependentUpon>frmPostAnnouncementEdit3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPreview.resx">
+      <DependentUpon>frmPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRoom.resx">
+      <DependentUpon>frmRoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRunningMessage.resx">
+      <DependentUpon>frmRunningMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSAPI.resx">
+      <DependentUpon>frmSAPI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedBeta.resx">
+      <DependentUpon>frmSchedBeta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedule.resx">
+      <DependentUpon>frmSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSection.resx">
+      <DependentUpon>frmSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSNotification.resx">
+      <DependentUpon>frmSMSNotification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSubjects.resx">
+      <DependentUpon>frmSubjects.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmView.resx">
+      <DependentUpon>frmView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhoneBook.resx">
+      <DependentUpon>frmPhoneBook.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config" />
+    <None Include="bin\Debug\JPLPCMalvarEBulletinBoardSystem.vshost.exe.config" />
+    <None Include="bin\Debug\JPLPCMalvarEBulletinBoardSystem.vshost.exe.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe" />
+    <Content Include="bin\Debug\JPLPCMalvarEBulletinBoardSystem.pdb" />
+    <Content Include="bin\Debug\JPLPCMalvarEBulletinBoardSystem.vshost.exe" />
+    <Content Include="bin\Debug\JPLPCMalvarEBulletinBoardSystem.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\Photos\images\" />
+    <Folder Include="bin\Debug\Photos\img\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

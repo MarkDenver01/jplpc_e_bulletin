@@ -1,0 +1,167 @@
+﻿''' <summary>
+''' Electronic bulletin board with SMS Notification
+''' Distribution this code/system is probihited.
+''' Please ask the client or the developer first.
+''' For more info, you can contact the developer
+''' Developer : Denver (gregoriomarkdenver01@gmail.com) or m.gregorio@kinpo.com.ph
+''' Website : www.markdenvergregorio.pe.hu
+''' </summary>
+
+Public Class frmMain
+    Private Sub SMSNotificationToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SMSNotificationToolStripMenuItem.Click
+        frmSMSNotification.ShowDialog()
+    End Sub
+    Private Sub AdministratorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AdministratorToolStripMenuItem.Click
+        If AdministratorToolStripMenuItem.Text = "ADMINISTRATOR" Then
+            frmLogin.ShowDialog()
+        ElseIf AdministratorToolStripMenuItem.Text = "LOG OUT" Then
+            Dim res As DialogResult
+            res = MsgBox("Do you want to log out?", vbYesNo + MsgBoxStyle.Information, "Log Out")
+            If res = DialogResult.Yes Then
+                MsgBox("You have been logged out!", MsgBoxStyle.Information, "Log out")
+                ToolStripMenuItem3.Text = "LOG IN"
+                AdministratorToolStripMenuItem.Text = "ADMINISTRATOR"
+                lblNotify.Visible = False
+                NOTIFICATIONToolStripMenuItem.Visible = False
+                MASTERENTRYToolStripMenuItem.Visible = False
+                THEMESToolStripMenuItem.Visible = False
+                EXITToolStripMenuItem.Visible = True
+            End If
+        End If
+    End Sub
+    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        MASTERENTRYToolStripMenuItem.Visible = False
+        NOTIFICATIONToolStripMenuItem.Visible = False
+        THEMESToolStripMenuItem.Visible = False
+        Timer1.Start()
+    End Sub
+    Private Sub AddRoomToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddRoomToolStripMenuItem.Click
+        frmRoom.ShowDialog()
+    End Sub
+    Private Sub AddSectionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddSectionToolStripMenuItem.Click
+        frmSection.ShowDialog()
+    End Sub
+    Private Sub SCHEDULEOFEXAMINATIONToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SCHEDULEOFEXAMINATIONToolStripMenuItem.Click
+        frmSchedule.ShowDialog()
+    End Sub
+    Private Sub ADDSUBJECTSToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ADDSUBJECTSToolStripMenuItem.Click
+        frmSubjects.ShowDialog()
+    End Sub
+    Private Sub EXITToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EXITToolStripMenuItem.Click
+        Me.Close()
+    End Sub
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        lblNotify.Text = Format(Now, "MMMM dd, yyyy hh:mm:ss")
+    End Sub
+    Private Sub PhonebookToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PhonebookToolStripMenuItem.Click
+        frmPhoneBook.ShowDialog()
+    End Sub
+    Private Sub RUNNINGMESSAGEToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RUNNINGMESSAGEToolStripMenuItem.Click
+        frmRunningMessage.ShowDialog()
+    End Sub
+    Private Sub SCHEDULEOFEXAMINATIONToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles SCHEDULEOFEXAMINATIONToolStripMenuItem1.Click
+        frmPreview.Location = Screen.AllScreens(UBound(Screen.AllScreens)).Bounds.Location + New Point(100, 100)
+        frmPreview.Show()
+    End Sub
+    Private Sub ANNOUNCEMENTSEVENTSToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ANNOUNCEMENTSEVENTSToolStripMenuItem.Click
+        frmAnnouncement.Location = Screen.AllScreens(UBound(Screen.AllScreens)).Bounds.Location + New Point(100, 100)
+        frmAnnouncement.Show()
+    End Sub
+    Private Sub ADDPHOTOEVENTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ADDPHOTOEVENTToolStripMenuItem.Click
+        frmAddPhoto.ShowDialog()
+    End Sub
+    Private Sub ADDEVENTToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ADDEVENTToolStripMenuItem.Click
+        frmEventMessage.ShowDialog()
+    End Sub
+    Private Sub ViewHistoryToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewHistoryToolStripMenuItem.Click
+        frmHistory.ShowDialog()
+    End Sub
+    Private Sub RESETTERToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RESETTERToolStripMenuItem.Click
+        frmAnnounementResetter.ShowDialog()
+    End Sub
+
+    Private Sub MARCHToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MARCHToolStripMenuItem.Click
+        frmAnnouncement.Panel1.BackColor = Color.DarkGreen
+        frmAnnouncement.Panel2.BackColor = Color.Green
+        frmAnnouncement.Panel3.BackColor = Color.Green
+        frmAnnouncement.Panel4.BackColor = Color.Green
+        frmAnnouncement.Panel5.BackColor = Color.Green
+        frmAnnouncement.Panel9.BackColor = Color.Green
+        'frmAnnouncement.Panel10.BackColor = Color.Green
+        'frmAnnouncement.Panel11.BackColor = Color.Green
+        'frmAnnouncement.Panel12.BackColor = Color.Green
+        frmAnnouncement.Panel6.BackColor = Color.MediumSeaGreen
+        frmAnnouncement.txtAnnouncement.BackColor = Color.SeaGreen
+        frmAnnouncement.txtAnnouncement2.BackColor = Color.SeaGreen
+        frmAnnouncement.txtAnnouncement3.BackColor = Color.SeaGreen
+        frmAnnouncement.txtEventMessage.BackColor = Color.SeaGreen
+        'frmAnnouncement.txtEvent1.BackColor = Color.SeaGreen
+        'frmAnnouncement.txtEvent2.BackColor = Color.SeaGreen
+        'frmAnnouncement.txtEvent3.BackColor = Color.SeaGreen
+        frmAnnouncement.PhotoEvent.BackColor = Color.SeaGreen
+        frmAnnouncement.Panel8.BackColor = Color.DarkGreen
+
+        frmPreview.Panel1.BackColor = Color.DarkGreen
+        frmPreview.Panel2.BackColor = Color.DarkGreen
+        frmPreview.Panel3.BackColor = Color.SeaGreen
+        frmPreview.Panel4.BackColor = Color.SeaGreen
+        frmPreview.Panel5.BackColor = Color.SeaGreen
+        frmPreview.Panel9.BackColor = Color.SeaGreen
+        frmPreview.Panel10.BackColor = Color.SeaGreen
+        frmPreview.Panel11.BackColor = Color.SeaGreen
+        frmPreview.Panel6.BackColor = Color.MediumSeaGreen
+        frmPreview.Panel12.BackColor = Color.ForestGreen
+        frmPreview.Panel8.BackColor = Color.DarkGreen
+
+
+    End Sub
+
+    Private Sub JANAUARYToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles JANAUARYToolStripMenuItem.Click
+        frmAnnouncement.Panel1.BackColor = Color.Maroon
+        frmAnnouncement.Panel2.BackColor = Color.Firebrick
+        frmAnnouncement.Panel3.BackColor = Color.Firebrick
+        frmAnnouncement.Panel4.BackColor = Color.Firebrick
+        frmAnnouncement.Panel5.BackColor = Color.Firebrick
+        frmAnnouncement.Panel9.BackColor = Color.Firebrick
+        'frmAnnouncement.Panel10.BackColor = Color.Firebrick
+        'frmAnnouncement.Panel11.BackColor = Color.Firebrick
+        'frmAnnouncement.Panel12.BackColor = Color.Firebrick
+        frmAnnouncement.Panel6.BackColor = Color.IndianRed
+        frmAnnouncement.txtAnnouncement.BackColor = Color.RosyBrown
+        frmAnnouncement.txtAnnouncement2.BackColor = Color.RosyBrown
+        frmAnnouncement.txtAnnouncement3.BackColor = Color.RosyBrown
+        frmAnnouncement.txtEventMessage.BackColor = Color.RosyBrown
+        'frmAnnouncement.txtEvent1.BackColor = Color.RosyBrown
+        'frmAnnouncement.txtEvent2.BackColor = Color.RosyBrown
+        'frmAnnouncement.txtEvent3.BackColor = Color.RosyBrown
+        frmAnnouncement.PhotoEvent.BackColor = Color.RosyBrown
+        frmAnnouncement.Panel8.BackColor = Color.Brown
+
+        frmPreview.Panel1.BackColor = Color.Maroon
+        frmPreview.Panel2.BackColor = Color.Maroon
+        frmPreview.Panel3.BackColor = Color.Firebrick
+        frmPreview.Panel4.BackColor = Color.Firebrick
+        frmPreview.Panel5.BackColor = Color.Firebrick
+        frmPreview.Panel9.BackColor = Color.Firebrick
+        frmPreview.Panel10.BackColor = Color.Firebrick
+        frmPreview.Panel11.BackColor = Color.Firebrick
+        frmPreview.Panel6.BackColor = Color.LightCoral
+        frmPreview.Panel12.BackColor = Color.IndianRed
+        frmPreview.Panel8.BackColor = Color.Brown
+
+    End Sub
+
+    Private Sub SAPIToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SAPIToolStripMenuItem.Click
+        frmSAPI.ShowDialog()
+    End Sub
+
+    Private Sub BetaAnnouncementToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BetaAnnouncementToolStripMenuItem.Click
+        frmNewAnnouncement.ShowDialog()
+    End Sub
+
+    Private Sub POSTRECIEVINGSMSToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles POSTRECIEVINGSMSToolStripMenuItem.Click
+        frmAllSMS.ShowDialog()
+    End Sub
+
+
+End Class

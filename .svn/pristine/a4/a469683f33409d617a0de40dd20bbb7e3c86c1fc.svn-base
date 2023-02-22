@@ -1,0 +1,16 @@
+﻿
+Imports MySql.Data.MySqlClient
+Module connection
+    Public con As MySqlConnection = New MySqlConnection
+    Public strSQL As String = String.Empty
+    Public cmd As MySqlCommand = New MySqlCommand
+    Public dr As MySqlDataReader
+    Public photoset
+    'DENVER <09-23-2017>: Global Variables
+    Public getSection, getMNum, getFacultyDept, getGroupBy, getName As String
+    Public results() As String
+    Public num As Integer = 1
+    Public filterWords As String
+    Public filt As Integer
+    Public getPostName, getPostGroupBy As String
+End Module

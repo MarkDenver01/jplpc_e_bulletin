@@ -1,0 +1,272 @@
+﻿Imports MySql.Data.MySqlClient
+Public Class frmAnnounementResetter
+    Dim csstring As String = "server=localhost;uid=root;pwd=admin;database=ebulletindb;"
+    Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+        If rboA1.Checked = True Then
+            frmAnnouncement.txtAnnouncement.Text = ""
+            MsgBox("Announcement Field 1 has been resetted!", MsgBoxStyle.Information, "Reset")
+        ElseIf rboA2.Checked = True Then
+            frmAnnouncement.txtAnnouncement2.Text = ""
+            MsgBox("Announcement Field 2 has been resetted!", MsgBoxStyle.Information, "Reset")
+        ElseIf rboA3.Checked = True Then
+            frmAnnouncement.txtAnnouncement3.Text = ""
+            MsgBox("Announcement Field 3 has been resetted!", MsgBoxStyle.Information, "Reset")
+        ElseIf rboAReset.Checked = True Then
+            frmAnnouncement.txtAnnouncement.Text = ""
+            frmAnnouncement.txtAnnouncement2.Text = ""
+            frmAnnouncement.txtAnnouncement3.Text = ""
+            MsgBox("Announcement Slider has been resetted!", MsgBoxStyle.Information, "Reset")
+        ElseIf rboE1.Checked = True Then
+            frmAnnouncement.txtEventMessage.Text = ""
+            MsgBox("Event Field 1 has been resetted!", MsgBoxStyle.Information, "Reset")
+        ElseIf rboE2.Checked = True Then
+            frmAnnouncement.txtEvent1.Text = ""
+            MsgBox("Event Field 2 has been resetted!", MsgBoxStyle.Information, "Reset")
+        ElseIf rboE3.Checked = True Then
+            frmAnnouncement.txtEvent2.Text = ""
+            MsgBox("Event Field 3 has been resetted!", MsgBoxStyle.Information, "Reset")
+        ElseIf rboE4.Checked = True Then
+            frmAnnouncement.txtEvent3.Text = ""
+            MsgBox("Event Field 4 has been resetted!", MsgBoxStyle.Information, "Reset")
+        ElseIf rboAReset.Checked = True Then
+            frmAnnouncement.txtEventMessage.Text = ""
+            frmAnnouncement.txtEvent1.Text = ""
+            frmAnnouncement.txtEvent2.Text = ""
+            frmAnnouncement.txtEvent3.Text = ""
+            MsgBox("Event Slider has been resetted", MsgBoxStyle.Information, "Reset")
+        ElseIf rboPhotoReset.Checked = True Then
+            Try
+                con = New MySqlConnection(csstring)
+                con.Open()
+                strSQL = "TRUNCATE TABLE tbleventphoto"
+                cmd = New MySqlCommand(strSQL, con)
+                cmd.ExecuteNonQuery()
+                If con.State <> ConnectionState.Open Then
+                    con.Close()
+                End If
+                con = New MySqlConnection(csstring)
+                con.Open()
+                strSQL = "ALTER TABLE tbleventphoto AUTO_INCREMENT =1"
+                cmd = New MySqlCommand(strSQL, con)
+                cmd.ExecuteNonQuery()
+                If con.State <> ConnectionState.Open Then
+                    con.Close()
+                End If
+                MsgBox("Cannot add more photos. Storage is full.", MsgBoxStyle.Information, "Reset")
+            Catch ex As Exception
+                MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+            End Try
+        ElseIf rboResetAll.Checked = True Then
+            Dim res As DialogResult
+            res = MsgBox("Do you want to reset the preview of announcement form?", vbYesNo + MsgBoxStyle.Information, "Resetter")
+            If res = Windows.Forms.DialogResult.Yes Then
+                frmAnnouncement.txtAnnouncement.Text = ""
+                frmAnnouncement.txtAnnouncement2.Text = ""
+                frmAnnouncement.txtAnnouncement3.Text = ""
+                frmAnnouncement.txtEvent1.Text = ""
+                frmAnnouncement.txtEvent2.Text = ""
+                frmAnnouncement.txtEvent3.Text = ""
+                frmAnnouncement.txtEventMessage.Text = ""
+                frmAnnouncement.txtRunningMessage.Text = ""
+                frmAnnouncement.PhotoEvent.Image = Nothing
+                Try
+                    con = New MySqlConnection(csstring)
+                    con.Open()
+                    strSQL = "TRUNCATE TABLE tbleventphoto"
+                    cmd = New MySqlCommand(strSQL, con)
+                    cmd.ExecuteNonQuery()
+                    If con.State <> ConnectionState.Open Then
+                        con.Close()
+                    End If
+                    con = New MySqlConnection(csstring)
+                    con.Open()
+                    strSQL = "ALTER TABLE tbleventphoto AUTO_INCREMENT =1"
+                    cmd = New MySqlCommand(strSQL, con)
+                    cmd.ExecuteNonQuery()
+                    If con.State <> ConnectionState.Open Then
+                        con.Close()
+                    End If
+                    MsgBox("Announcement Form has been resetted!", MsgBoxStyle.Information, "Reset Form")
+                Catch ex As Exception
+                    MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+                End Try
+            End If
+        End If
+    End Sub
+
+    Private Sub rboA1_CheckedChanged(sender As Object, e As EventArgs) Handles rboA1.CheckedChanged
+        If rboA1.Checked = True Then
+            rboA2.Checked = False
+            rboA3.Checked = False
+            rboAReset.Checked = False
+            rboE1.Checked = False
+            rboE2.Checked = False
+            rboE3.Checked = False
+            rboE4.Checked = False
+            rboEReset.Checked = False
+            rboPhotoReset.Checked = False
+            rboResetAll.Checked = False
+        End If
+    End Sub
+    Private Sub rboA2_CheckedChanged(sender As Object, e As EventArgs) Handles rboA2.CheckedChanged
+        If rboA2.Checked = True Then
+            rboA1.Checked = False
+            rboA3.Checked = False
+            rboAReset.Checked = False
+            rboE1.Checked = False
+            rboE2.Checked = False
+            rboE3.Checked = False
+            rboE4.Checked = False
+            rboEReset.Checked = False
+            rboPhotoReset.Checked = False
+            rboResetAll.Checked = False
+        End If
+    End Sub
+    Private Sub rboA3_CheckedChanged(sender As Object, e As EventArgs) Handles rboA3.CheckedChanged
+        If rboA3.Checked = True Then
+            rboA2.Checked = False
+            rboA1.Checked = False
+            rboAReset.Checked = False
+            rboE1.Checked = False
+            rboE2.Checked = False
+            rboE3.Checked = False
+            rboE4.Checked = False
+            rboEReset.Checked = False
+            rboPhotoReset.Checked = False
+            rboResetAll.Checked = False
+        End If
+    End Sub
+    Private Sub rboAReset_CheckedChanged(sender As Object, e As EventArgs) Handles rboAReset.CheckedChanged
+        If rboAReset.Checked = True Then
+            rboA2.Checked = False
+            rboA3.Checked = False
+            rboA1.Checked = False
+            rboE1.Checked = False
+            rboE2.Checked = False
+            rboE3.Checked = False
+            rboE4.Checked = False
+            rboEReset.Checked = False
+            rboPhotoReset.Checked = False
+            rboResetAll.Checked = False
+        End If
+    End Sub
+
+    Private Sub rboE1_CheckedChanged(sender As Object, e As EventArgs) Handles rboE1.CheckedChanged
+        If rboE1.Checked = True Then
+            rboA1.Checked = False
+            rboA2.Checked = False
+            rboA3.Checked = False
+            rboAReset.Checked = False
+            rboE2.Checked = False
+            rboE3.Checked = False
+            rboE4.Checked = False
+            rboEReset.Checked = False
+            rboPhotoReset.Checked = False
+            rboResetAll.Checked = False
+        End If
+    End Sub
+
+    Private Sub rboE2_CheckedChanged(sender As Object, e As EventArgs) Handles rboE2.CheckedChanged
+        If rboE2.Checked = True Then
+            rboA1.Checked = False
+            rboA2.Checked = False
+            rboA3.Checked = False
+            rboAReset.Checked = False
+            rboE1.Checked = False
+            rboE3.Checked = False
+            rboE4.Checked = False
+            rboEReset.Checked = False
+            rboPhotoReset.Checked = False
+            rboResetAll.Checked = False
+        End If
+    End Sub
+
+    Private Sub rboE3_CheckedChanged(sender As Object, e As EventArgs) Handles rboE3.CheckedChanged
+        If rboE3.Checked = True Then
+            rboA1.Checked = False
+            rboA2.Checked = False
+            rboA3.Checked = False
+            rboAReset.Checked = False
+            rboE2.Checked = False
+            rboE1.Checked = False
+            rboE4.Checked = False
+            rboEReset.Checked = False
+            rboPhotoReset.Checked = False
+            rboResetAll.Checked = False
+        End If
+    End Sub
+
+    Private Sub rboE4_CheckedChanged(sender As Object, e As EventArgs) Handles rboE4.CheckedChanged
+        If rboE4.Checked = True Then
+            rboA1.Checked = False
+            rboA2.Checked = False
+            rboA3.Checked = False
+            rboAReset.Checked = False
+            rboE2.Checked = False
+            rboE3.Checked = False
+            rboE1.Checked = False
+            rboEReset.Checked = False
+            rboPhotoReset.Checked = False
+            rboResetAll.Checked = False
+        End If
+    End Sub
+
+    Private Sub rboEReset_CheckedChanged(sender As Object, e As EventArgs) Handles rboEReset.CheckedChanged
+        If rboEReset.Checked = True Then
+            rboA1.Checked = False
+            rboA2.Checked = False
+            rboA3.Checked = False
+            rboAReset.Checked = False
+            rboE2.Checked = False
+            rboE3.Checked = False
+            rboE4.Checked = False
+            rboE1.Checked = False
+            rboPhotoReset.Checked = False
+            rboResetAll.Checked = False
+        End If
+    End Sub
+
+    Private Sub rboPhotoReset_CheckedChanged(sender As Object, e As EventArgs) Handles rboPhotoReset.CheckedChanged
+        If rboPhotoReset.Checked = True Then
+            rboA1.Checked = False
+            rboA2.Checked = False
+            rboA3.Checked = False
+            rboAReset.Checked = False
+            rboE2.Checked = False
+            rboE3.Checked = False
+            rboE4.Checked = False
+            rboEReset.Checked = False
+            rboE1.Checked = False
+            rboResetAll.Checked = False
+        End If
+    End Sub
+
+    Private Sub rboResetAll_CheckedChanged(sender As Object, e As EventArgs) Handles rboResetAll.CheckedChanged
+        If rboResetAll.Checked = True Then
+            rboA1.Checked = False
+            rboA2.Checked = False
+            rboA3.Checked = False
+            rboAReset.Checked = False
+            rboE2.Checked = False
+            rboE3.Checked = False
+            rboE4.Checked = False
+            rboEReset.Checked = False
+            rboPhotoReset.Checked = False
+            rboE1.Checked = False
+        End If
+    End Sub
+
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+        rboA1.Checked = False
+        rboA2.Checked = False
+        rboA3.Checked = False
+        rboAReset.Checked = False
+        rboE1.Enabled = False
+        rboE2.Checked = False
+        rboE3.Checked = False
+        rboE4.Checked = False
+        rboEReset.Checked = False
+        rboPhotoReset.Checked = False
+        rboResetAll.Checked = False
+    End Sub
+End Class

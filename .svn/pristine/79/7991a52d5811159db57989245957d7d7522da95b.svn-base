@@ -1,0 +1,47 @@
+﻿
+Module FilterMessages
+    Public list As New List(Of String)
+
+    Public Sub populateDictionary()
+        list = New List(Of String)
+        list.Add("fuck")
+        list.Add("gago")
+        list.Add("fck")
+        list.Add("fckshit")
+        list.Add("shit")
+        list.Add("sh!t")
+        list.Add("fckingshit")
+        list.Add("gaga")
+        list.Add("gagi")
+        list.Add("gag0")
+        list.Add("ogag")
+        list.Add("siraulo")
+        list.Add("tangina")
+        list.Add("tang ina")
+        list.Add("taena")
+        list.Add("tangama")
+        list.Add("tang ama")
+        list.Add("tanga")
+        list.Add("t@ngin@")
+        list.Add("t@ng@")
+        list.Add("baliw")
+        list.Add("b@liw")
+        list.Add("b@l!w")
+        list.Add("h@yop")
+        list.Add("hay0p")
+        list.Add("baluga")
+        list.Add("bayot")
+        list.Add("bading")
+        list.Add("walang kwenta")
+        list.Add("dafuck")
+        list.Add("punyeta")
+        list.Add("bitch")
+        list.Add("b!tch")
+        list.Add("dickhead")
+        list.Add("d!ckhead")
+
+        For Each getList As String In list
+            MsgBox(getList)
+        Next
+    End Sub
+End Module

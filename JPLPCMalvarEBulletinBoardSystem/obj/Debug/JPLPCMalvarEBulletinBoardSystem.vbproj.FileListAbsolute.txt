@@ -1,0 +1,452 @@
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhonebook.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhoto.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAllSMS.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnounementResetter.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmEventMessage.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmHistory.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListPhoto.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmLogin.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMain.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNewAnnouncement.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPreview.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRoom.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRunningMessage.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSAPI.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedBeta.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedule.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSection.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSMSNotification.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSubjects.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.Resources.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhoneBook.resources
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.GenerateResource.Cache
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\MySql.Data.dll
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\Interop.WMPLib.dll
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\AxInterop.WMPLib.dll
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+C:\Freelance Projects\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbprojResolveAssemblyReference.cache
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\Interop.WMPLib.dll
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\AxInterop.WMPLib.dll
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbprojResolveAssemblyReference.cache
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhonebook.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhoto.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAllSMS.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnounementResetter.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmEventMessage.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmHistory.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListPhoto.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmLogin.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMain.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNewAnnouncement.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPreview.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRoom.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRunningMessage.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSAPI.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedBeta.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedule.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSection.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSMSNotification.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSubjects.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.Resources.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhoneBook.resources
+D:\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.GenerateResource.Cache
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\MySql.Data.dll
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\Interop.WMPLib.dll
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\AxInterop.WMPLib.dll
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbprojResolveAssemblyReference.cache
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhonebook.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhoto.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAllSMS.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnounementResetter.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmEventMessage.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmHistory.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListPhoto.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmLogin.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMain.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNewAnnouncement.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPreview.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRoom.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRunningMessage.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSAPI.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedBeta.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedule.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSection.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSMSNotification.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSubjects.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.Resources.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhoneBook.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.GenerateResource.Cache
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmView.resources
+C:\Freelance Projects\latestbulletin\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNotification.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\Interop.WMPLib.dll
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\AxInterop.WMPLib.dll
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbprojResolveAssemblyReference.cache
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhonebook.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhoto.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAllSMS.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnounementResetter.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmEventMessage.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmHistory.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListPhoto.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmLogin.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMain.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNewAnnouncement.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNotification.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPreview.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRoom.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRunningMessage.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSAPI.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedBeta.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedule.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSection.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSMSNotification.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSubjects.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmView.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.Resources.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhoneBook.resources
+E:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.GenerateResource.Cache
+H:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+H:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+H:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+H:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+H:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+H:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+H:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\Interop.WMPLib.dll
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\AxInterop.WMPLib.dll
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbprojResolveAssemblyReference.cache
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhonebook.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhoto.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAllSMS.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnounementResetter.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmEventMessage.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmHistory.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListPhoto.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmLogin.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMain.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNewAnnouncement.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNotification.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPreview.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRoom.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRunningMessage.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSAPI.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedBeta.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedule.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSection.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSMSNotification.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSubjects.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmView.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.Resources.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhoneBook.resources
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.GenerateResource.Cache
+D:\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement_Pic.resources
+H:\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+H:\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+H:\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+H:\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+H:\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+H:\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+H:\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\MySql.Data.dll
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\Interop.WMPLib.dll
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\AxInterop.WMPLib.dll
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbprojResolveAssemblyReference.cache
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhonebook.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhoto.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAllSMS.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement_Pic.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement_View.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnounementResetter.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmConfiguration.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmEventMessage.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmHistory.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListPhoto.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmLogin.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMain.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNewAnnouncement.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNotification.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPreview.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRoom.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRunningMessage.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSAPI.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedBeta.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedule.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSection.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSMSNotification.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSubjects.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmView.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.Resources.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhoneBook.resources
+C:\Freelance Projects\12-01-2017\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.GenerateResource.Cache
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\Interop.WMPLib.dll
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbprojResolveAssemblyReference.cache
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhonebook.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhoto.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAllSMS.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement_Pic.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement_View.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnounementResetter.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmConfiguration.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmEventMessage.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmHistory.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListPhoto.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmLogin.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMain.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNewAnnouncement.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNotification.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPreview.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRoom.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRunningMessage.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSAPI.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedBeta.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedule.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSection.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSMSNotification.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSubjects.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmView.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.Resources.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhoneBook.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.GenerateResource.Cache
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncementDragnDrop.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmDragNDropObject.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncementCenter.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhotoPost.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhotoPostEdit.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncement2.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncementEdit2.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncement3.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncementEdit3.resources
+C:\Users\Lhanalyn\Desktop\latestebulletin11-19-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMenu.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\Interop.WMPLib.dll
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\AxInterop.WMPLib.dll
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbprojResolveAssemblyReference.cache
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhonebook.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhoto.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAllSMS.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncementCenter.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncementDragnDrop.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement_Pic.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement_View.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnounementResetter.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmConfiguration.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmDragNDropObject.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmEventMessage.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmHistory.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListPhoto.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmLogin.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMain.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMenu.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNewAnnouncement.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNotification.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhotoPost.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhotoPostEdit.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncement2.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncement3.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncementEdit2.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncementEdit3.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPreview.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRoom.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRunningMessage.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSAPI.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedBeta.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedule.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSection.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSMSNotification.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSubjects.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmView.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.Resources.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhoneBook.resources
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.GenerateResource.Cache
+H:\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListBirthday.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\Interop.WMPLib.dll
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbprojResolveAssemblyReference.cache
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhonebook.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhoto.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAllSMS.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncementCenter.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncementDragnDrop.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement_Pic.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement_View.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnounementResetter.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmConfiguration.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmDragNDropObject.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmEventMessage.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmHistory.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListBirthday.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListPhoto.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmLogin.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMain.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMenu.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNewAnnouncement.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNotification.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhotoPost.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhotoPostEdit.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncement2.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncement3.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncementEdit2.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncementEdit3.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPreview.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRoom.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRunningMessage.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSAPI.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedBeta.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedule.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSection.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSMSNotification.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSubjects.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmView.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.Resources.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhoneBook.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 12-15-2017 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.GenerateResource.Cache
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe.config
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\Interop.WMPLib.dll
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.ResolveComReference.cache
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.exe
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.pdb
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\JPLPCMalvarEBulletinBoardSystem.xml
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\Interop.WMPLib.dll
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbprojResolveAssemblyReference.cache
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhonebook.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAddPhoto.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAllSMS.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncementCenter.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncementDragnDrop.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement_Pic.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnouncement_View.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmAnnounementResetter.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmConfiguration.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmDragNDropObject.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmEventMessage.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmHistory.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListBirthday.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmListPhoto.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmLogin.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMain.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmMenu.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNewAnnouncement.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmNotification.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhotoPost.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhotoPostEdit.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncement2.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncement3.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncementEdit2.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPostAnnouncementEdit3.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPreview.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRoom.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmRunningMessage.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSAPI.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedBeta.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSchedule.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSection.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSMSNotification.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmSubjects.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmView.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.Resources.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.frmPhoneBook.resources
+C:\Users\Laurence Eguia\Desktop\LATEST 01-05-2018 e-bulletin\12-12-2017\09-08-2017\JPLPCMalvarEBulletinBoardSystem\obj\Debug\JPLPCMalvarEBulletinBoardSystem.vbproj.GenerateResource.Cache

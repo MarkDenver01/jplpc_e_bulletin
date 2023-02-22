@@ -1,0 +1,5 @@
+﻿Public Class frmSAPI
+    Private Sub btnLoadMessages_Click(sender As Object, e As EventArgs) Handles btnLoadMessages.Click
+        MsgBox("get file")
+    End Sub
+End Class

@@ -1,0 +1,54 @@
+﻿Imports MySql.Data.MySqlClient
+Public Class frmAddPhonebook
+    Dim csstring As String = "server=localhost;uid=root;pwd=admin;database=ebulletindb;"
+    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        Try
+            con = New MySqlConnection(csstring)
+            con.Open()
+            strSQL = "select name from tblphonebook where name=@name"
+            cmd = New MySqlCommand(strSQL)
+            cmd.Connection = con
+            cmd.Parameters.Add(New MySqlParameter("@name", MySqlDbType.VarChar, 100, "name"))
+            cmd.Parameters("@name").Value = txtName.Text
+            dr = cmd.ExecuteReader
+            If dr.Read() Then
+                MsgBox(" " & txtName.Text & " is already existed!", MsgBoxStyle.Critical, "Already Exist")
+                txtName.Text = ""
+                txtName.Focus()
+                If (dr IsNot Nothing) Then
+                    dr.Close()
+                End If
+                Return
+            End If
+            con = New MySqlConnection(csstring)
+            con.Open()
+            strSQL = "select number from tblphonebook where number=@number"
+            cmd = New MySqlCommand(strSQL)
+            cmd.Connection = con
+            cmd.Parameters.Add(New MySqlParameter("@number", MySqlDbType.VarChar, 100, "number"))
+            cmd.Parameters("@number").Value = txtMobile.Text
+            dr = cmd.ExecuteReader
+            If dr.Read() Then
+                MsgBox(" " & txtMobile.Text & " is already existed!", MsgBoxStyle.Critical, "Already Exist")
+                txtName.Text = ""
+                txtName.Focus()
+                If (dr IsNot Nothing) Then
+                    dr.Close()
+                End If
+                Return
+            End If
+            con = New MySqlConnection(csstring)
+            con.Open()
+            strSQL = "Insert into tblphonebook(name, number) values('" & txtName.Text.Trim & "','" & _
+                txtMobile.Text.Trim & "')"
+            cmd = New MySqlCommand(strSQL, con)
+            cmd.ExecuteNonQuery()
+            If con.State <> ConnectionState.Open Then
+                con.Close()
+            End If
+            MsgBox(" " & txtName.Text & " has been save on phonebook!", MsgBoxStyle.Information, "Phonebook")
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+End Class

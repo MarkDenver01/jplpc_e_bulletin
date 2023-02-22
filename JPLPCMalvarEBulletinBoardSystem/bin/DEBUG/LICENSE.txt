@@ -1,0 +1,77 @@
+                                             User License Agreement
+
+This user license agreement (this ¡§Agreement¡¨) governs your use of EBulletin System software (¡§EBulletin System¡¨) and defines the relationship between you, or in the case that you represent and are using EBulletin System on behalf of a company or other entity, that company or other entity (¡§you¡¨) and EBulletin System, Inc., a Taiwanese company (¡§EBulletin System¡¨). 
+
+PLEASE READ THIS AGREEMENT BEFORE PRESSING THE ¡§AGREE¡¨ BUTTON AND CHECKING THE BOX WHERE THE OPTION IS MADE AVAILABLE TO YOU. BY PRESSING ¡§AGREE,¡¨ YOU REPRESENT AND WARRANT THAT YOU HAVE THE AUTHORITY TO ACCEPT THIS AGREEMENT AND YOU ARE AGREEING TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, PRESS ¡§CANCEL¡¨ AND STOP USING AND/OR DOWNLOADING EBulletin System. 
+
+1.    EBulletin System
+EBulletin System means, collectively: 
+(i)  all the contents of the disk(s), CD-ROM(s), electronic mail and its file attachments, or other media with which this Agreement is provided, including the object code form of the software delivered via a CD-ROM, electronic mail or web page;
+(ii)  digital images, stock photographs, clip art, or other artistic work; 
+(iii)  related explanatory written materials and any other possible documentation related thereto; 
+(iv)  upgrades, modified versions, updates, additions licensed to you by EBulletin System. 
+
+2.    LICENSE
+2.1  EBulletin System may be provided separately or in the form of pre-installed, embedded software on a EBulletin System product.. By downloading or using the EBulletin System you agree to be bound by the terms of this Agreement.  If you do not agree to the terms and conditions of this Agreement or do not have the authority warranted above, do not download or use the EBulletin System.
+2.2  Subject to the terms and conditions of this Agreement, EBulletin System grants you a nontransferable, nonexclusive, royalty-free, fully paid, revocable, worldwide license, without the right to sublicense, to permit individuals authorized by you (¡§Authorized User¡¨) to install, execute and display EBulletin System, in executable object code format only. 
+
+3.    RESTRICTIONS  
+3.1  The rights granted to you under this Agreement are subject to the following restrictions: 
+(a)  you shall not license, sell, rent, lease, transfer, assign, distribute, host, outsource, disclose or commercially exploit EBulletin System or make EBulletin System available to any third parties other than Authorized User;
+(b)  you shall not modify, make derivative works of, disassemble, enhance or merge the whole or any part of EBulletin System with any other software, source code or documentation;
+(c)  you shall not reverse compile or reverse engineer any part of  EBulletin System, except and to the extent that the applicable law expressly permits doing so;
+(d)  you shall not access EBulletin System in order to build a similar or competitive product or service; 
+(e)  except as expressly stated herein, no part of  EBulletin System may be copied, reproduced, distributed, republished, downloaded, displayed, posted or transmitted in any form or by any means, including but not limited to electronic, mechanical, photocopying, recording or other means; 
+(f)  any future release, update, or other addition to functionality of EBulletin System will be subject to the terms of this Agreement, unless EBulletin System expressly states otherwise; and
+(g)  you shall only use EBulletin System in a manner that complies with all applicable laws in the jurisdiction where you use EBulletin System, including but not limited to applicable restrictions regarding copyright and other intellectual property rights. 
+
+3.2  Neither EBulletin System nor any of its suppliers is obligated to provide any services, updates or upgrades to  EBulletin System.  You shall not remove, obscure or alter any copyright and other proprietary rights notices in EBulletin System or any  copies thereof.
+
+4.    OWNERSHIP  
+
+All right, title, and interest, including all intellectual property rights, in and to  EBulletin System shall be owned and retained by EBulletin System and its licensors.  Any rights not expressly granted by EBulletin System under this Agreement are reserved, and except as expressly granted in this Agreement, EBulletin System grants no rights or licenses to you, by implication, estoppel, or otherwise in or to EBulletin System.  You acknowledge that you acquire no ownership interest in EBulletin System by downloading or using EBulletin System.
+
+
+5.    DISCLAIMER OF WARRANTIES  
+5.1  You shall not use EBulletin System in any situations which health or safety might be at risk.  You will not use EBulletin System in connection with the operation of nuclear facilities, aircraft navigation, communication systems, medical devices, air traffic control devices, or other situations in which the failure of EBulletin System could foreseeably lead to death, personal injury, or physical property.
+5.2  EBulletin System makes no representations regarding fitness of EBulletin System for the design, construction of parts or components that may be subject to additional regulation in your jurisdiction, such as toys, weapons or medical devices.
+5.3  EBulletin System IS PROVIDED TO YOU FREE OF CHARGE, AND ON AN "AS-IS" BASIS, ¡§WITH ALL FAULTS¡¨ and ¡§AS AVAILABLE¡¨ .  YOU ASSUME TOTAL RESPONSIBILITY AND ALL RISKS FOR YOUR DOWNLOAD OR USE OF EBulletin System.  EBulletin System DOES NOT WARRANT OR GUARANTEE THE OUTPUT OR RESULTS OF EBulletin System.
+5.4  TO THE MAXIMUM EXTENT PERMITTED BY LAW, EBulletin System, ITS PRESENT AND FUTURE AFFILIATES, SUBSIDIARIES, DIRECTORS, OFFICERS, AGENTS, OWNERS, MANAGERS AND EMPLOYEES (COLLECTIVELY ¡§THE COMPANY,¡¨ FOR THE PURPOSE OF SECTIONS 5, 6 AND 7) AND ITS SUPPLIERS DISCLAIM ALL WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, TITLE, MERCHANTABILITY, COMPLETENESS, AVAILABILITY, SECURITY, COMPATIBILITY OR NONINFRINGEMENT. THE COMPANY DOES NOT GUARANTEE THAT USE OF EBulletin System WILL BE UNINTERRUPTED, FREE OF VIRUSES AND OTHER HARMFUL COMPONENTS, ACCURATE, ERROR FREE, OR RELIABLE.  THE COMPANY DISCLAIMS ALL LIABILITY FOR ACTS, OMISSIONS AND CONDUCT OF ANY THIRD PARTIES RELATED TO YOUR DOWNLOAD OR USE OF EBulletin System.  SOME JURISDICTIONS DO NOT ALLOW THE FOREGOING EXCLUSIONS. IN SUCH AN EVENT SUCH EXCLUSION WILL NOT APPLY SOLELY TO THE EXTENT PROHIBITED BY APPLICABLE LAW.  
+5.5  IF APPLICABLE LAW REQUIRES ANY WARRANTIES WITH RESPECT TO EBulletin System, ALL SUCH WARRANTIES ARE LIMITED IN DURATION TO THIRTY (30) DAYS FROM THE DATE OF DOWNLOAD OR FIRST USE. 
+5.6  NO INFORMATION OR ADVICE, WHETHER ORAL OR WRITTEN, PROVIDED BY THE COMPANY OR IN ANY MANNER RELATED TO DOWNLOAD OR USE EBulletin System SHALL CONSTITUTE A WARRANTY.
+
+6.    LIMITATION OF LIABILITY  
+YOU EXPRESSLY UNDERSTAND AND AGREE THAT THE COMPANY SHALL NOT BE LIABLE TO YOU UNDER ANY THEORY OF LIABILITY FOR ANY SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO DAMAGES RESULTING FROM LOSS OF PROFITS, DATA OR BUSINESS, WHETHER OR NOT THE COMPANY OR ITS REPRESENTATIVES HAVE BEEN ADVISED OR HAVE BEEN AWARE OF THE POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING ANY OTHER PROVISION OF THIS AGREEMENT, IF THE COMPANY IS FOUND TO BE LIABLE TO YOU FOR ANY DAMAGES OR LOSS THAT ARISES OUT OF OR IS IN ANY WAY RELATED TO THIS AGREEMENT, THE COMPANY¡¦S ENTIRE LIABILITY FOR DIRECT DAMAGES UNDER THIS AGREEMENT SHALL BE LIMITED TO USD FIFTY ($50.00).
+
+7.    INDEMNIFY
+7.1  You expressly agree to indemnify, defend, and hold harmless the Company from and against any and all claims, liabilities, damages, losses, attorneys fees, or expenses made against the Company by a third party arising out of or in connection with your download or use of EBulletin System in violation of this Agreement or any other violation of this Agreement. 
+7.2  The Company reserves the right to take on the exclusive defense and control of any matter otherwise subject to indemnification by you, and in such case, you shall cooperate fully with the Company¡¦s defense of the claim. The Company will promptly notify you of such disputes and claims in writing.  
+7.3  Without the Company¡¦s prior written consent, you have no authority to admit any fault, liability, make any settlement or compromise of disputes or claims for the Company unless the settlement releases Company from all liability pertaining to such claim.  
+
+8.    NO OTHER OBLIGATIONS
+This Agreement creates no obligations on the part of EBulletin System other than as specifically set forth herein.
+
+9.    BASIS OF BARGAIN.  
+The warranty disclaimer and limitation of liability set forth above are fundamental elements of the basis of this Agreement between EBulletin System and you.  EBulletin System would not be able to provide the EBulletin System on an economic basis without such limitations. 
+
+10.    TERM AND TERMINATION.  
+10.1  This Agreement and the licenses granted hereunder are effective on the date you download or first use  EBulletin System and shall continue unless and until this Agreement is terminated by EBulletin System pursuant to this section. If EBulletin System terminates this Agreement, you must delete EBulletin System immediately.
+10.2  EBulletin System reserves the right to terminate this Agreement at any time in EBulletin System¡¦s sole discretion, including but not limited to in the event that  EBulletin System reasonably determines that you have breached this Agreement, other activities you have engaged in deemed inappropriate for download or use EBulletin System, or you have engaged in illegal activities.  Upon termination, the license granted hereunder shall terminate and you shall immediately destroy any copies of EBulletin System in your possession and in the possession of Authorized Users, but the terms of this Agreement which are intended to survive termination will remain in effect.
+
+11.    Governing Law; Dispute Resolution
+Your download or use of EBulletin System, including all disputes arising therefrom shall be governed by the laws of the Republic of China (Taiwan), without regard to conflict of laws principles and without regard to your actual place of residence.  You agree that the exclusive jurisdiction for any claim or dispute with EBulletin System, Inc., a Taiwan company, or relating in any way to your download or use EBulletin System resides in the courts of the Republic of China (Taiwan) in Taipei, Taiwan.   You further agree and expressly consent to the exercise of personal jurisdiction in the courts of the Republic of China (Taiwan) in Taipei, Taiwan, in connection with any such dispute and including any claim involving EBulletin System, Inc. or its affiliates, subsidiaries, employees, contractors, officers, directors, telecommunication providers and content providers.  You agree that any cause of action or claim that you may have with respect to your download or use of EBulletin System must be commenced within one year after the act or omission giving rise to the claim or cause of action arose.
+
+12.    GENERAL.  
+12.1  This Agreement constitutes the entire and exclusive and final statement of the agreement between you and EBulletin System with respect to the subject matter hereof, superseding any prior representations, discussions, communications, advertisement, agreements or negotiations between you and EBulletin System with respect to such subject matter, if any.  
+12.2  No delay or failure to exercise or enforce any legal right or remedy under this Agreement will constitute a waiver unless expressly waived by the Company in writing. 
+12.3  If any provision of this Agreement is found by a court of competent jurisdiction to be invalid, you nevertheless agree that the court should endeavor to give effect to the intentions of EBulletin System and you as reflected in the provision, and that the other provisions of this Agreement remains in full force and effect.  
+12.4  The section titles in this Agreement are for convenience only and have no contractual or legal effect.  
+12.5  This Agreement shall remain in full force and effect even if you terminate your use of EBulletin System.  
+12.6  This Agreement will be interpreted without application of any strict construction in favor of or against you or EBulletin System.  
+12.7  You agree that any notice may be provided for you by email.
+12.8  You may not assign, delegate or transfer, including by operation of law, sale of assets, merger or otherwise, this Agreement or any of your rights or obligations (in whole or in part) under this Agreement to any third party.
+
+
+QUESTIONS OR ADDITIONAL INFORMATION.  
+If you have questions regarding this Agreement, or wish to obtain additional information, please send an e-mail to our Customer Service: support@EBulletin System.com.
+

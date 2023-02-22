@@ -1,0 +1,555 @@
+﻿Imports MySql.Data.MySqlClient
+Imports System.IO.Ports
+Imports System.Threading
+Imports System.Management
+Imports System.Text.RegularExpressions
+Imports System.IO
+Imports System.Linq
+
+Public Class frmAnnouncement
+    Dim csstring As String = "server=localhost;uid=root;pwd=admin;database=ebulletindb;"
+    Dim RanNum As New Random
+    Dim DistMove As Integer = 10
+    Dim inc As Integer = 1
+
+    Dim rcvdata As String = ""
+    Dim index As String = ""
+    Dim strSelectedAssignCode As String
+
+
+    Private Sub frmAnnouncement_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Timer1.Start()
+        'Blinking Running Message
+        Timer2.Interval = 10000
+        Timer2.Start()
+        Timer3.Enabled = True
+
+        'DENVER <09-11-2017>: Loading announcements
+        Timer4.Interval = 10000
+        Timer4.Enabled = True
+
+        'Call SMS Configuration
+        Try
+            smsConfig()
+        Catch ex As Exception
+            MsgBox(ex.ToString, MsgBoxStyle.Critical, "Error")
+        Finally
+            sPort.Close()
+        End Try
+
+        'Try
+        '    With sPort
+        '        .PortName = "COM19"
+        '        .BaudRate = 9600
+        '        .Parity = Parity.None
+        '        .DataBits = 8
+        '        .StopBits = StopBits.One
+        '        .Handshake = Handshake.None
+        '        .RtsEnable = True
+        '        .ReceivedBytesThreshold = 1
+        '        .NewLine = vbCr
+        '        .ReadTimeout = 1000
+        '        .Open()
+        '        splitMessages()
+
+        '    End With
+        'Catch ex As Exception
+        '    MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        'End Try
+
+        Timer5.Interval = 500
+        Timer5.Enabled = True
+
+    End Sub
+
+
+
+    'DENVER <09-22-2017>: SMS Reader
+    Public Sub sPort_DataRecieved(ByVal sender As Object, ByVal e As SerialDataReceivedEventArgs) Handles sPort.DataReceived
+
+        Try
+            Dim dataIn As String = ""
+            Dim numBytes As Integer = sPort.BytesToRead
+            Thread.Sleep(300)
+            For i As Integer = 1 To numBytes
+                dataIn &= sPort.ReadExisting
+
+            Next
+            reciever(dataIn)
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+
+    End Sub
+
+    'Denver <09-22-2017>: Recieving SMS
+    Public Sub reciever(ByVal inData As String)
+        rcvdata &= inData
+    End Sub
+
+
+    'DENVER <09-23-2017>: SMS Configuration
+    Public Sub smsConfig()
+        Try
+            With sPort
+                .PortName = "COM19"
+                .BaudRate = 9600
+                .Parity = Parity.None
+                .DataBits = 8
+                .StopBits = StopBits.One
+                .Handshake = Handshake.None
+                .RtsEnable = True
+                .ReceivedBytesThreshold = 1
+                .NewLine = vbCr
+                .ReadTimeout = 1000
+                .Open()
+                splitMessages()
+            End With
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+
+    'Denver <09-22-2017>: Split Recieve Messages
+    Public Sub splitMessages()
+        lvMessage.Items.Clear()
+        Try
+            With sPort
+                rcvdata = ""
+                .Write("AT" & vbCrLf)
+                Threading.Thread.Sleep(1000)
+                .Write("AT+CMGF=1" & vbCrLf)
+                Threading.Thread.Sleep(1000)
+                .Write("AT+CPMS=""SM""" & vbCrLf)
+                Threading.Thread.Sleep(1000)
+                .WriteLine("AT+CMGL=""REC UNREAD""" & vbCrLf) 'read unread messages
+                Threading.Thread.Sleep(1000)
+                .Write("AT+CMGL=""ALL""" & vbCrLf)
+                Threading.Thread.Sleep(1000)
+                rcvMessages()
+                ' num += 1
+            End With
+
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+
+
+    'Denver <10-11-2017>:List to filtering all badwords
+    Public Shared Function badWords(ByVal inputText As String, ByVal badWordsFile As String) As String
+        Dim fs As StreamReader = File.OpenText(badWordsFile)
+        Dim bs As New Specialized.StringCollection
+        Dim sb As New Text.StringBuilder(inputText)
+
+        While fs.Peek <> -1
+            sb = sb.Replace(fs.ReadLine.Trim, "*")
+
+        End While
+
+        fs.Close()
+        Return sb.ToString
+
+    End Function
+
+
+    'DENVER <09-23-2017>: Recieving Message
+    Public Sub rcvMessages()
+        Dim lineText As String
+        Dim i As Integer
+        Dim arrayTextFile() As String
+        lineText = rcvdata.ToString
+        arrayTextFile = Split(lineText, "+CMGL", , CompareMethod.Text)
+
+        For i = 3 To UBound(arrayTextFile)
+            Dim input As String = arrayTextFile(i)
+            Dim pattern As String = "(:)|(,"")|("","")|(,)|(" + """)|(OK)"
+            results = Regex.Split(input, pattern)
+
+            con = New MySqlConnection(csstring)
+            con.Open()
+            strSQL = "SELECT * FROM tblstudentsms WHERE mnum ='" & results(6) & "'"
+            cmd = New MySqlCommand(strSQL, con)
+            dr = cmd.ExecuteReader
+
+            While dr.Read
+                getSection = dr("section")
+                Dim lv As ListViewItem = lvMessage.Items.Add(getSection)
+                With lv
+                    Dim myString As String = results(20)
+                    'Dim x As Integer = 0
+
+                    'While x >= 0
+                    '    .SubItems.AddRange(New String() {myString.Replace(arrayString(x), "****")})
+                    '    x = x +    
+                    'End While
+
+
+                    'If arrayString.Any(Function(b) myString.IndexOf(b, StringComparison.CurrentCultureIgnoreCase) >= 0) Then
+                    '    .SubItems.AddRange(New String() {myString.Replace(arrayString.ToString(), "****")})
+                    'End If
+
+                    'Dim badWords As Regex = New Regex("di w0w|ef#")
+
+                    Dim regex As New Regex(String.Join("|", arrayString), RegexOptions.IgnoreCase)
+
+                    If regex.IsMatch(myString) Then
+                        .BackColor = Color.Maroon
+                        .ForeColor = Color.Maroon
+                    Else
+                        .SubItems.AddRange(New String() {myString.ToString()})
+                    End If
+
+
+
+                    ' Dim x = badWords.IsMatch(myString)
+
+                    'For Each x As String In arrayString
+                    '    If badWords.IsMatch(myString) Then
+
+                    '    End If
+                    'Next
+
+                    'While badWords.IsMatch(myString)
+                    '    .SubItems.AddRange(New String() {myString.Replace(badWords.ToString(), "****")})
+                    'End While
+
+
+
+
+
+                    'While x > 100
+                    '    .SubItems.AddRange(New String() {myString.Replace(arrayString(x), "****")})
+                    '    x = x + 1
+                    'End While
+
+                    'For Each filterWords In arrayString
+
+                    '    For x = 0 To UBound(arrayString)
+                    '        If arrayString.Count > 0 Then
+                    '            .SubItems.AddRange(New String() {myString.Replace(arrayString(x), "****")})
+                    '            x = x + 1
+                    '        End If
+                    '    Next
+                    'Next
+                    'If myString.Count > 0 Then
+                    '    .SubItems.AddRange(New String() {myString.Replace(arrayString(x), "***")})
+                    'End If
+
+
+                    'Next
+
+
+                    'For x = 0 To UBound(arrayString)
+                    '    For Each filterWords In arrayString(x)
+
+                    '        .SubItems.AddRange(New String() {myString.Replace(filterWords, "****")})
+                    '    Next
+                    'Next
+                    'Dim inputText As String = String.Empty
+                    'Dim sr As StreamReader = File.OpenText(myString)
+                    'Dim bs As New Specialized.StringCollection
+                    'Dim sb As New Text.StringBuilder(inputText)
+                    'While sr.Peek <> -1
+                    '    sb = sb.Replace(sr.ReadLine.Trim, "*")
+                    '    .SubItems.AddRange(New String() {sb.ToString()})
+                    'End While
+
+
+
+
+
+
+
+
+                    '.SubItems.AddRange(New String() {myString.Replace("Gago", "****")})
+                    'While myString = results(20)
+                    ' .SubItems.AddRange(New String() {myString.Replace(arrayString.ToString, "****")})
+                    'End While
+                    'Dim filt As Integer = 0
+
+                    'For filt = 0 To UBound(arrayString)
+                    '    .SubItems.AddRange(New String() {myString.Replace(filt, "****")})
+                    'Next
+                    'filt += 1
+                    'For Each filterWords In arrayString
+                    '    .SubItems.AddRange(New String() {myString.Replace(filterWords, "****")})
+                    'Next
+                    '.SubItems.AddRange(New String() {myString.Replace(arrayString, "***")})
+
+                    'While filterWords = arrayString.ToString
+                    '    .SubItems.AddRange(New String() {myString.Replace(filterWords, "****")})
+                    'End While
+                    'Do While filterWords Is arrayString
+                    '    .SubItems.AddRange(New String() {myString.Replace(filterWords, "****")})
+                    'Loop
+                    'Dim wordNum As Integer = 0
+                    'For filt = 0 To UBound(arrayString)
+
+                    '    filterWords = arrayString(filt)
+                    'Next
+
+
+                    'Do
+
+                    '    Dim getWords As String = myString.Replace(filterWords, "****")
+                    '    .SubItems.AddRange(New String() {getWords})
+
+                    'Loop
+                    'filt += 1
+
+
+
+
+
+
+
+                    'While filt < UBound(arrayString)
+                    '    .SubItems.AddRange(New String() {myString.Replace(arrayString(filt), "****")})
+
+                    'End While
+
+                    'While filt > UBound(arrayString)
+                    '    .SubItems.AddRange(New String() {myString.Replace(arrayString(filt), "****")})
+                    '    filt += 1
+                    'End While
+
+                    'While filt < UBound(arrayString)
+                    '    filterWords = arrayString(filt)
+                    '    .SubItems.AddRange(New String() {myString.Replace(filterWords, "****")})
+                    'End While
+
+
+
+
+
+                End With
+
+                ' num += 1
+            End While
+
+            dr.Close()
+            cmd.Dispose()
+            If con.State <> ConnectionState.Open Then
+                con.Close()
+            End If
+            'runQuery("SELECT id, mnum, section FROM tblstudentsms WHERE id ='" & num & "' AND mnum ='" & results(6) & "' ")
+            'If ds.Tables(0).Rows.Count > 0 Then
+            '    getSection = ds.Tables(0).Rows(0).Item(2)
+            '    'listData = New List(Of String)
+            '    'listData.Add(getSection)
+            '    With lvMessage.Items.Add(getSection)
+            '        .SubItems.AddRange(New String() {results(20)})
+            '    End With
+
+
+
+            'End If
+
+            'Dim getResult
+            ''For a As Integer To 
+            'For Each getResult In listData
+            '    Dim lv As New ListViewItem
+            '    With lvMessage.Items.Add(getResult)
+            '        .SubItems.AddRange(New String() {results(20)})
+            '    End With
+            'Next
+
+
+        Next
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        lblDate.Text = Format(Now, "MMMM dd, yyyy hhhh:mm:ss")
+    End Sub
+    Sub photoeventslider1()
+        Try
+            con = New MySqlConnection(csstring)
+            con.Open()
+            strSQL = "Select * from tbleventphoto where id ='" & "1" & "'"
+            cmd = New MySqlCommand(strSQL, con)
+            dr = cmd.ExecuteReader
+            If dr.Read Then
+                PhotoEvent.ImageLocation = System.AppDomain.CurrentDomain.BaseDirectory & "Photos\" & dr("photos").ToString
+            End If
+            dr.Close()
+            cmd.Dispose()
+            If con.State <> ConnectionState.Open Then
+                con.Close()
+            End If
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+    Sub photoeventslider2()
+        Try
+            con = New MySqlConnection(csstring)
+            con.Open()
+            strSQL = "Select * from tbleventphoto where id ='" & "2" & "'"
+            cmd = New MySqlCommand(strSQL, con)
+            dr = cmd.ExecuteReader
+            If dr.Read Then
+                PhotoEvent.ImageLocation = System.AppDomain.CurrentDomain.BaseDirectory & "Photos\" & dr("photos").ToString
+            End If
+            dr.Close()
+            cmd.Dispose()
+            If con.State <> ConnectionState.Open Then
+                con.Close()
+            End If
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+    Sub photoeventslider3()
+        Try
+            con = New MySqlConnection(csstring)
+            con.Open()
+            strSQL = "Select * from tbleventphoto where id ='" & "3" & "'"
+            cmd = New MySqlCommand(strSQL, con)
+            dr = cmd.ExecuteReader
+            If dr.Read Then
+                PhotoEvent.ImageLocation = System.AppDomain.CurrentDomain.BaseDirectory & "Photos\" & dr("photos").ToString
+            End If
+            dr.Close()
+            cmd.Dispose()
+            If con.State <> ConnectionState.Open Then
+                con.Close()
+            End If
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+
+    Sub photoeventslider4()
+        Try
+            con = New MySqlConnection(csstring)
+            con.Open()
+            strSQL = "Select * from tbleventphoto where id ='" & "4" & "'"
+            cmd = New MySqlCommand(strSQL, con)
+            dr = cmd.ExecuteReader
+            If dr.Read Then
+                PhotoEvent.ImageLocation = System.AppDomain.CurrentDomain.BaseDirectory & "Photos\" & dr("photos").ToString
+            End If
+            dr.Close()
+            cmd.Dispose()
+            If con.State <> ConnectionState.Open Then
+                con.Close()
+            End If
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+
+    Sub photoeventslider5()
+        Try
+            con = New MySqlConnection(csstring)
+            con.Open()
+            strSQL = "Select * from tbleventphoto where id ='" & "5" & "'"
+            cmd = New MySqlCommand(strSQL, con)
+            dr = cmd.ExecuteReader
+            If dr.Read Then
+                PhotoEvent.ImageLocation = System.AppDomain.CurrentDomain.BaseDirectory & "Photos\" & dr("photos").ToString
+            End If
+            dr.Close()
+            cmd.Dispose()
+            If con.State <> ConnectionState.Open Then
+                con.Close()
+            End If
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+        Dim max As Integer = 5000
+        Dim rnd As New Random
+        Dim rand As Integer = rnd.Next(10, max + 1)
+        Dim i As Integer = 1
+        Dim number(max - 1) As Integer
+        For i = 0 To max - 1
+            If number(i) = rand Then
+                rand = rnd.Next(1, max + 1)
+                i = -1
+            ElseIf number(i) = 0 Then
+                number(i) = rand
+                rand = rnd.Next(1, max + 1)
+                If i = max - 1 Then
+                    Exit For
+                End If
+                i = -1
+            End If
+        Next
+        Timer1.Interval = number(i)
+        i += 1
+        ChangeImage()
+    End Sub
+
+    Private Sub ChangeImage()
+        Static Dim iImage1 As Integer
+        Select Case iImage1
+            Case 0
+                PhotoEvent.Visible = True
+                Call photoeventslider1()
+                iImage1 += 1
+            Case 1
+                PhotoEvent.Visible = True
+                Call photoeventslider2()
+                iImage1 += 1
+            Case 2
+                PhotoEvent.Visible = True
+                Call photoeventslider3()
+                iImage1 += 1
+            Case 3
+                PhotoEvent.Visible = True
+                Call photoeventslider4()
+                iImage1 += 1
+            Case 4
+                PhotoEvent.Visible = True
+                Call photoeventslider5()
+                iImage1 = 0
+        End Select
+    End Sub
+    Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
+        txtRunningMessage.Left += DistMove
+        If txtRunningMessage.Left + txtRunningMessage.Width > Me.ClientRectangle.Width Then
+            txtRunningMessage.Left = Me.ClientRectangle.Width - txtRunningMessage.Width
+            DistMove = Not DistMove
+        ElseIf txtRunningMessage.Left < 0 Then
+            txtRunningMessage.Left = 0
+            DistMove = Not DistMove
+        End If
+    End Sub
+
+
+    'DENVER <09-11-2017>: GetAnnouncement POOL PROBLEM
+    Private Sub Timer4_Tick(sender As Object, e As EventArgs) Handles Timer4.Tick
+        con = New MySqlConnection(csstring)
+        con.Open()
+        strSQL = "SELECT * FROM tblannouncement where id ='" & inc & "'"
+        cmd = New MySqlCommand(strSQL, con)
+        dr = cmd.ExecuteReader
+        If dr.HasRows Then
+            If dr.Read Then
+                txtAnnouncement.Text = dr("message")
+                lblDate1.Text = dr("dateentry")
+                inc += 1
+            End If
+        End If
+        dr.Close()
+        cmd.Dispose()
+        If con.State <> ConnectionState.Open Then
+            con.Close()
+        End If
+    End Sub
+
+    Private Sub Timer5_Tick(sender As Object, e As EventArgs) Handles Timer5.Tick
+        'Try
+        '    splitMessages()
+        'Catch ex As Exception
+        '    MsgBox(ex.ToString, MsgBoxStyle.Critical, "Error")
+        'Finally
+        '    'sPort.Close()
+        'End Try
+        'filt += 1
+    End Sub
+End Class
